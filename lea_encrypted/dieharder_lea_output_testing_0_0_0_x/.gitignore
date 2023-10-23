@@ -1,0 +1,5 @@
+lea_input_generation
+32.example.input
+lea_output_generation
+.idea
+cmake-build-debug
