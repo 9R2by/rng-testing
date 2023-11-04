@@ -2,7 +2,7 @@
 #include <stdint.h>
 
 int main(void){
-        uint32_t u = 0;
+        register uint64_t u = 0;
         FILE *file = fopen("32.example.input", "a");
         if (file == NULL) {
                 printf("Unable to open/create the file.\n");
