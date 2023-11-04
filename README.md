@@ -2,9 +2,9 @@
 
 ## 2<sup>32</sup>-1 numbers:
 
-A bash script that will create a non random numer sequence (2<sup>32</sup>-1)*4 in the folder *pow_2_32_dieharder_input_generator*. It will generate numbers in an ascending order, starting from 0 up to 2<sup>32</sup>-1 and write those to a file with an appropiate header that can be analysed by *dieharder*.
-The script is executed by invoking *init.sh* once and then starting the script by executing *start.sh*.
-The number file is called *32.example.input* and the dieharder report will be written to the file *uint32_t_dieharder.report*. The generated number file will have around 43GB in size. The dieharder report is in the appendix A. The testing stopped after rgb_bitdist 10, because of a not provided n-tuple. Further testing was conducted manually, the entries have been added.
+A bash script that will create a non random numer sequence (2<sup>32</sup>-1)*4 in the folder *dieharder_lea_testing*. It will generate numbers in an ascending order, starting from 0 up to 2<sup>32</sup>-1 and write those to a file with an appropiate header that can be analysed by *dieharder*.
+The procedure will start by executing *start.sh*.
+The number file is called *32.example.input* and the dieharder report will be written to the file *uint32_t_dieharder.report*. The generated number file will have around xGB in size. The dieharder report is in the appendix A. The testing stopped after rgb_bitdist 10, because of a not provided n-tuple. Further testing was conducted manually, the entries have been added.
 
 
 The script can be run in the background like this:
@@ -63,7 +63,8 @@ Your device may become unstable as dieharder seems to use a lot of memory and cp
 
 
  ## Appendix A
-dieharder tests on 2<sup>32</sup>-1 numbers starting from 0 to 2<sup>32</sup>-1 ascending in a file (version 3.31.1  Copyright 2003 Robert G. Brown):       
+dieharder tests on 2<sup>32</sup>-1 numbers starting from 0 to 2<sup>32</sup>-1 ascending in a file (version 3.31.1  Copyright 2003 Robert G. Brown):  
+!Be aware some tests are missing here!
 
 |   rng_name    |           filename             | rands/second |     
 |---------------|--------------------------------|--------------|
