@@ -222,29 +222,33 @@ diehard_count_1s_byt |   0 |    256000 |     100 | 0.00000000|  FAILED
 ## Appendix B
 
 dieharder tests on AES_OFB (version 3.31.1  Copyright 2003 Robert G. Brown):
-   rng_name    |           filename             |rands/second|
-     file_input|             aes_ofb_rands.input|  9.18e+06  |
-#=============================================================================#
-        test_name   |ntup| tsamples |psamples|  p-value |Assessment
-#=============================================================================#
-   diehard_birthdays|   0|       100|     100|0.58246773|  PASSED  
-      diehard_operm5|   0|   1000000|     100|0.14919492|  PASSED  
-  diehard_rank_32x32|   0|     40000|     100|0.97040800|  PASSED  
-    diehard_rank_6x8|   0|    100000|     100|0.74416271|  PASSED  
-   diehard_bitstream|   0|   2097152|     100|0.14661745|  PASSED  
-        diehard_opso|   0|   2097152|     100|0.12494528|  PASSED  
-        diehard_oqso|   0|   2097152|     100|0.50795601|  PASSED  
-         diehard_dna|   0|   2097152|     100|0.89690202|  PASSED  
-diehard_count_1s_str|   0|    256000|     100|0.03794882|  PASSED  
-diehard_count_1s_byt|   0|    256000|     100|0.87014928|  PASSED  
- diehard_parking_lot|   0|     12000|     100|0.84439484|  PASSED  
-    diehard_2dsphere|   2|      8000|     100|0.76865475|  PASSED  
-    diehard_3dsphere|   3|      4000|     100|0.35496139|  PASSED  
-     diehard_squeeze|   0|    100000|     100|0.82046110|  PASSED  
-        diehard_sums|   0|       100|     100|0.43550263|  PASSED  
-        diehard_runs|   0|    100000|     100|0.82811339|  PASSED  
-        diehard_runs|   0|    100000|     100|0.47160274|  PASSED  
-       diehard_craps|   0|    200000|     100|0.38469264|  PASSED  
+| rng_name            | filename                  | rands/second |
+| file_input          | aes_ofb_rands.input        | 9.18e+06     |
+|=============================================================================|
+| test_name           | ntup | tsamples | psamples | p-value   | Assessment |
+|=============================================================================|
+| diehard_birthdays   | 0   | 100      | 100      | 0.58246773 | PASSED     |
+| diehard_operm5      | 0   | 1000000  | 100      | 0.14919492 | PASSED     |
+| diehard_rank_32x32  | 0   | 40000    | 100      | 0.97040800 | PASSED     |
+| diehard_rank_6x8    | 0   | 100000   | 100      | 0.74416271 | PASSED     |
+| diehard_bitstream    | 0   | 2097152  | 100      | 0.14661745 | PASSED     |
+| diehard_opso         | 0   | 2097152  | 100      | 0.12494528 | PASSED     |
+| diehard_oqso         | 0   | 2097152  | 100      | 0.50795601 | PASSED     |
+| diehard_dna          | 0   | 2097152  | 100      | 0.89690202 | PASSED     |
+| diehard_count_1s_str | 0   | 256000   | 100      | 0.03794882 | PASSED     |
+| diehard_count_1s_byt | 0   | 256000   | 100      | 0.87014928 | PASSED     |
+| diehard_parking_lot  | 0   | 12000    | 100      | 0.84439484 | PASSED     |
+| diehard_2dsphere     | 2   | 8000     | 100      | 0.76865475 | PASSED     |
+| diehard_3dsphere     | 3   | 4000     | 100      | 0.35496139 | PASSED     |
+| diehard_squeeze      | 0   | 100000   | 100      | 0.82046110 | PASSED     |
+| diehard_sums         | 0   | 100      | 100      | 0.43550263 | PASSED     |
+| diehard_runs         | 0   | 100000   | 100      | 0.82811339 | PASSED     |
+| diehard_runs         | 0   | 100000   | 100      | 0.47160274 | PASSED     |
+| diehard_craps        | 0   | 200000   | 100      | 0.38469264 | PASSED     |
+
+
+
+       
        diehard_craps|   0|    200000|     100|0.26685127|  PASSED  
  marsaglia_tsang_gcd|   0|  10000000|     100|0.86522648|  PASSED  
  marsaglia_tsang_gcd|   0|  10000000|     100|0.95048583|  PASSED  
