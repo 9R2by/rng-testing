@@ -63,9 +63,7 @@ Your device may become unstable as dieharder seems to use a lot of memory and cp
 
 
  ## Appendix A
-dieharder tests on 2<sup>32</sup>-1 numbers starting from 0 to 2<sup>32</sup>-1 ascending in a file (version 3.31.1  Copyright 2003 Robert G. Brown):    
-#=============================================================================#      
-#=============================================================================#      
+dieharder tests on 2<sup>32</sup>-1 numbers starting from 0 to 2<sup>32</sup>-1 ascending in a file (version 3.31.1  Copyright 2003 Robert G. Brown):       
 
 |   rng_name    |           filename             | rands/second |     
 |---------------|--------------------------------|--------------|
@@ -155,6 +153,8 @@ dieharder tests on 2<sup>32</sup>-1 numbers starting from 0 to 2<sup>32</sup>-1 
 dieharder tests on AES_OFB (version 3.31.1  Copyright 2003 Robert G. Brown):
 | rng_name            | filename                  | rands/second |
 | file_input          | aes_ofb_rands.input        | 9.18e+06     |
+
+
 | test_name           | ntup | tsamples | psamples | p-value   | Assessment |
 | diehard_birthdays   | 0   | 100      | 100      | 0.58246773 | PASSED     |
 | diehard_operm5      | 0   | 1000000  | 100      | 0.14919492 | PASSED     |
@@ -173,11 +173,7 @@ dieharder tests on AES_OFB (version 3.31.1  Copyright 2003 Robert G. Brown):
 | diehard_sums         | 0   | 100      | 100      | 0.43550263 | PASSED     |
 | diehard_runs         | 0   | 100000   | 100      | 0.82811339 | PASSED     |
 | diehard_runs         | 0   | 100000   | 100      | 0.47160274 | PASSED     |
-| diehard_craps        | 0   | 200000   | 100      | 0.38469264 | PASSED     |
-
-
-
-       
+| diehard_craps        | 0   | 200000   | 100      | 0.38469264 | PASSED     |       
        diehard_craps|   0|    200000|     100|0.26685127|  PASSED  
  marsaglia_tsang_gcd|   0|  10000000|     100|0.86522648|  PASSED  
  marsaglia_tsang_gcd|   0|  10000000|     100|0.95048583|  PASSED  
