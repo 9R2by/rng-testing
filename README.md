@@ -13,7 +13,7 @@ The data in the file is optimized to be used as input for the LEA cipher, so it 
 0   
 1   
 The procedure will start by executing *start.sh*.   
-The number file is called *32.example.input* and the dieharder report will be written to the file *uint32_t_dieharder.report*. The generated number file will have around xGB in size. The dieharder report is in the appendix A. The testing stopped after rgb_bitdist 10, because of a not provided n-tuple. Further testing was conducted manually, the entries have been added.
+The number file is called *32.example.input* and the dieharder report will be written to the file *uint32_t_dieharder.report*. The generated file will have around 67GB in size. The dieharder report is in the appendix A. The testing stopped after rgb_bitdist 10, because of a not provided n-tuple. Further testing was conducted manually, the entries have been added.
 
 
 The script can be run in the background like this:
