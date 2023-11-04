@@ -63,6 +63,76 @@ Your device may become unstable as dieharder seems to use a lot of memory and cp
 
 
  ## Appendix A
+ | Test Name             | Rank | Block Size | Alphabets | P-Value     | Result  |
+|-----------------------|------|------------|-----------|------------|---------|
+| diehard_opso          | 0    | 2097152    | 100       | 0.00000000  | FAILED  |
+| diehard_oqso          | 0    | 2097152    | 100       | 0.00000000  | FAILED  |
+| diehard_dna           | 0    | 2097152    | 100       | 0.00000000  | FAILED  |
+| diehard_count_1s_str | 0    | 256000     | 100       | 0.00000000  | FAILED  |
+| diehard_count_1s_byt | 0    | 256000     | 100       | 0.00000000  | FAILED  |
+| diehard_parking_lot   | 0    | 12000      | 100       | 0.00000000  | FAILED  |
+| diehard_2dsphere     | 2    | 8000       | 100       | 0.00000000  | FAILED  |
+| diehard_3dsphere     | 3    | 4000       | 100       | 0.00000000  | FAILED  |
+| diehard_squeeze      | 0    | 100000    | 100       | 0.00000000  | FAILED  |
+| diehard_sums         | 0    | 100       | 100       | 0.00000000  | FAILED  |
+| diehard_runs         | 0    | 100000    | 100       | 0.00000000  | FAILED  |
+| diehard_runs         | 0    | 100000    | 100       | 0.00000000  | FAILED  |
+| diehard_craps        | 0    | 200000    | 100       | 0.00000000  | FAILED  |
+| diehard_craps        | 0    | 200000    | 100       | 0.00000000  | FAILED  |
+| marsaglia_tsang_gcd  | 0    | 10000000  | 100       | 0.00000000  | FAILED  |
+| marsaglia_tsang_gcd  | 0    | 10000000  | 100       | 0.00000000  | FAILED  |
+| sts_monobit          | 1    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_runs             | 2    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 1    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 2    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 3    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 3    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 4    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 4    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 5    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 5    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 6    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 6    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 7    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 7    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 8    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 8    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 9    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 9    | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 10   | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 10   | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 11   | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 11   | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 12   | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 12   | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 13   | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 13   | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 14   | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 14   | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 15   | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 15   | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 16   | 100000    | 100       | 0.00000000  | FAILED  |
+| sts_serial           | 16   | 100000    | 100       | 0.00000000  | FAILED  |
+| rgb_bitdist          | 1    | 100000    | 100       | 0.00000000  | FAILED  |
+| rgb_bitdist          | 2    | 100000    | 100       | 0.00000000  | FAILED  |
+| rgb_bitdist          | 3    | 100000    | 100       | 0.00000000  | FAILED  |
+| rgb_bitdist          | 4    | 100000    | 100       | 0.00000000  | FAILED  |
+| rgb_bitdist          | 5    | 100000    | 100       | 0.00000000  | FAILED  |
+| rgb_bitdist          | 6    | 100000    | 100       | 0.00000000  | FAILED  |
+| rgb_bitdist          | 7    | 100000    | 100       | 0.00000000  | FAILED  |
+| rgb_bitdist          | 8    | 100000    | 100       | 0.00000000  | FAILED  |
+| rgb_bitdist          | 9    | 100000    | 100       | 0.00000000  | FAILED  |
+| rgb_bitdist          | 10   | 100000    | 100       | 0.00000000  | FAILED  |
+| rgb_minimum_distance | 0    | 10000     | 1000      | 0.00000000  | FAILED  |
+| rgb_permutations     | 5    | 100000    | 100       | 0.00000000  | FAILED  |
+| rgb_lagged_sum       | 0    | 1000000   | 100       | 0.00000000  | FAILED  |
+| rgb_kstest_test      | 0    | 10000     | 1000      | 0.00000000  | FAILED  |
+| dab_bytedistrib      | 0    | 51200000  | 1         | 0.00000000  | FAILED  |
+| dab_dct              | 256  | 50000     | 1         | 0.00000000  | FAILED  |
+| dab_filltree         | 32   | 15000000  | 1         | 0.00000000  | FAILED  |
+| dab_filltree         | 32   | 15000000  | 1         | 0.00000000  | FAILED  |
+| dab_monobit2         | 12   | 65000000  | 1         | 1.00000000  | FAILED  |
+
  
 dieharder tests on 2<sup>32</sup>-1 numbers starting from 0 to 2<sup>32</sup>-1 ascending in a file (version 3.31.1  Copyright 2003 Robert G. Brown):      
    rng_name    |           filename             |rands/second|     
