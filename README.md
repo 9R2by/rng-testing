@@ -2,8 +2,8 @@
 
 ## 2<sup>32</sup>-1 numbers:
 
-A bash script that will create a non random numer sequence (2<sup>32</sup>-1)*4 in the folder *dieharder_lea_testing*. It will generate numbers in an ascending order, starting from 0 up to 2<sup>32</sup>-1 and write those to a file with an appropiate header that can be analysed by *dieharder*.    
-The data in the file is optimized to be used as input for the LEA cipher, so it looks like this:   
+A bash script that will create a file with a non random number sequence of (2<sup>32</sup>-1)*4 numbers in the folder *dieharder_lea_testing*. It will generate numbers in an ascending order, starting from 0 up to 2<sup>32</sup>-1 and write those to a file with an appropiate header that can be analysed by *dieharder*.    
+The data in the file is also optimized to be used as input for the LEA cipher, so it looks like this:   
 0    
 0    
 0   
