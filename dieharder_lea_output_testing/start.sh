@@ -4,6 +4,6 @@
 
 ./compile.sh
 
-./lea_input_generation
+./lea_output_generation
 
 ./dieharder.sh
