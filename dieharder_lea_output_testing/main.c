@@ -45,8 +45,8 @@
 
 int main(void)
 {       
-        uint64_t x3;
-        uint32_t x0 = 0, x1 = 0, x2 = 0, tmp;
+        uint64_t u;
+        uint32_t x0 = 0, x1 = 0, x2 = 0, x3, tmp;
         uint32_t roundkey_arr[ROUNDKEY_ARRAY_SIZE] = ROUNDKEYS;
         FILE *file = fopen("32.example.input", "a");
         if (file == NULL)
@@ -60,8 +60,9 @@ int main(void)
         fprintf(file, "type: d\n");
         fprintf(file, "count: 17179869180\n"); // 4294967295*4
         fprintf(file, "numbit: 32\n");
-        for (x3 = 0; x3 <= 0xFFFFFFFF; x3++)
+        for (u = 0; u <= 0xFFFFFFFF; u++)
         {
+                x3 = u;
                 endian_conversion(x0);
                 endian_conversion(x1);
                 endian_conversion(x2);
