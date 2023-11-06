@@ -44,14 +44,15 @@
 #define endian_conversion(x) __asm__ volatile("bswap %0" : "+r"(x))
 
 int main(void)
-{
-        uint32_t x0 = 0, x1 = 0, x2 = 0, x3, tmp;
+{       
+        uint64_t x3;
+        uint32_t x0 = 0, x1 = 0, x2 = 0, tmp;
         uint32_t roundkey_arr[ROUNDKEY_ARRAY_SIZE] = ROUNDKEYS;
         FILE *file = fopen("32.example.input", "a");
         if (file == NULL)
         {
                 printf("Unable to open/create the file.\n");
-                return 1;
+                return EXIT_FAILURE;
         }
         fprintf(file, "# ==================================================================\n");
         fprintf(file, "# C file generation pow(2,32)  seed = 0\n");
@@ -239,7 +240,7 @@ int main(void)
                 endian_conversion(x2);
                 endian_conversion(x3);
 
-                fprintf(file, "0\n0\n0\n%u\n", u);
+                fprintf(file, "%u\n%u\n%u\n%u\n", x0,x1,x2,x3);
         }
         fclose(file);
         return 0;
