@@ -59,8 +59,8 @@ int main(void) {
     fprintf(file, "count: 17179869180\n"); // 4294967295*4
     fprintf(file, "numbit: 32\n");
     for (u = 0; u <= 0xFFFFFFFF; u++) {
-        x0 = x1 = x2 = 0;
-        x3 = u;
+        x0 = u;
+        x3 = x1 = x2 = 0;
         // for debugging
         // printf("%u %u %u %u\n", x0, x1, x2, x3);
         endian_conversion(x0);
