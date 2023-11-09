@@ -1,5 +1,8 @@
 #!/bin/bash
 
+rm aes_ofb_rands.input
+rm mt19937_rands.input
+
 # generate 10000 random numbers with aes ofb
 dieharder -o -f aes_ofb_rands.input -t 10000000000 -g 205
 #head -n 3 aes_ofb_rands.input > aes_ofb_rands.header
