@@ -1,5 +1,6 @@
 #!/bin/bash
 
+chmod +x *.sh
 
 ./dieharder_gen_and_testing.sh
 
