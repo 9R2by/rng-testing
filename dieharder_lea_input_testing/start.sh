@@ -1,5 +1,7 @@
 #!/bin/bash
 
+chmod +x *.sh
+
 ./clean.sh
 
 ./compile.sh
