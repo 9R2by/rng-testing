@@ -1,7 +1,5 @@
 #!/bin/bash
 
-chmod +x *.sh
-
 ./dieharder_gen_and_testing.sh
 
 cd dieharder_lea_input_testing
