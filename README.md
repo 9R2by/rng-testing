@@ -51,8 +51,8 @@ It creates 4 files in the folder where it has been executed with the names:
 * mt19937_dieharder.report
   * the results from the dieharder tests
       
-The script was tested on Fedora 38, Debian 12.2 and Ubuntu 20.04.6 LTS using dieharder version 3.31.1.
-Using dieharder on Ubuntu 22.04.3 LTS had some issues with the file reading. I am unsure about the reasons.
+The script was tested on Fedora 38, Debian 12.2 and Ubuntu 20.04.6 LTS (WSL2) using dieharder version 3.31.1.
+Using dieharder on Ubuntu 22.04.3 LTS (WSL2) had some issues with the file reading. I am unsure about the reasons.
 
 The script can be run in the background like this:
 ```bash
